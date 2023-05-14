@@ -70,7 +70,7 @@ body {
   color: var(--secondary-text-color);
 }
 
-/* reset start */
+ /* reset start  */ 
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -81,6 +81,7 @@ body {
 
   white-space: nowrap;
   clip-path: inset(100%);
+  
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
