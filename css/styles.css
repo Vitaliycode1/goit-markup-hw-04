@@ -70,7 +70,11 @@ body {
   color: var(--secondary-text-color);
 }
 
- /* reset start  */ 
+ /*  
+   |============================
+   | reset start 
+   |============================
+ */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -186,7 +190,12 @@ img {
   color: var(--primary-text-color);
 }
 
-/* hero section */
+
+/**
+  |============================
+  | hero section
+  |============================
+*/
 
 .hero {
   max-width: 1440px;
@@ -237,9 +246,11 @@ img {
 .hero .btn:active {
   color: var(--light-btn-cl);
 }
-
-/* Strategy section */
-
+/**
+  |============================
+  | Strategy section
+  |============================
+*/
 .strategy-list {
   display: flex;
 }
@@ -252,13 +263,7 @@ img {
 .strategy-list-item:last-child {
   margin-right: 0;
 }
-.strategy-list-item::before {
-  display: block;
-  content: "";
-  height: 112px;
-  background: #f4f4fd;
-  border-radius: 4px;
-}
+
 
 .strategy {
   padding-top: 120px;
@@ -284,7 +289,30 @@ img {
   padding: 0px;
   margin: 0px;
 }
-/* Tools section */
+
+/**
+  |============================
+  | Strategi icon
+  |============================
+*/
+.strategy-list-item::before {
+  display: block;
+  content: "";
+  height: 112px ;
+  background-size: 64px 64px;
+  background-repeat: no-repeat;
+  background-color: var(--accent-btn-cl);
+  background-position: center;
+  border-radius: 4px;
+}
+.strategy-list-item.icon-antenna::before{
+  background-image: url("../images/icons/antenna\ .svg");
+}
+/**
+  |============================
+  | Tools section 
+  |============================
+*/
 .tools {
   padding-bottom: 120px;
 }
@@ -300,7 +328,11 @@ img {
   margin-right: 0px;
 }
 
-/* Team section */
+/**
+  |============================
+  | Team section
+  |============================
+*/
 .team {
   margin: 0 auto;
   padding-top: 120px;
@@ -334,30 +366,44 @@ img {
   margin-bottom: 8px;
 }
 
+
+/**
+  |============================
+  | Social icons
+  |============================
+*/
 .social-list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 24px;
 }
-.social-item {
-  width: 40px;
-  height: 40px;
-}
+
 .social-link {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  width: 44px;
+  height: 44px;
+  
+  
   background-color: var(--primary-btn-color);
+  border-radius: 50%;
 }
 .social-link:hover {
   background-color: var(--light-btn-cl);
 }
+.social-icon{
+  fill: var(--accent-btn-cl)
+}
 
-/* Customers section */
+
+/**
+  |============================
+  | Customers section
+  |============================
+*/
 .customers {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -384,7 +430,30 @@ img {
   border-radius: 4px;
 }
 
-/* footer section */
+
+.customers-link{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+color: #8E8F99;
+}
+.customers-link:hover{
+  color: var(--light-btn-cl);
+}
+.customer-icon{
+  fill: currentColor ;
+}
+
+
+
+
+/**
+  |============================
+  | Footer section
+  |============================
+*/
 .footer {
   display: flex;
   padding-top: 100px;
@@ -429,6 +498,12 @@ img {
   margin: 0;
   color: #f4f4fd;
 }
+
+/**
+  |============================
+  | Footer social icons 
+  |============================
+*/
 .footer-social-icons {
   display: block;
   margin: 0;
@@ -454,23 +529,27 @@ img {
   text-align: center;
   justify-content: center;
 }
-.footer-social-item {
+
+.footer-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   width: 40px;
   height: 40px;
-}
-.footer-social-link {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
+  
+ 
   background-color: var(--primary-btn-color);
+  border-radius: 50%;
 }
 .footer-social-link:hover {
   background: #31d0aa;
 }
-
-/* Filtr btn */
+/**
+  |============================
+  | Filtr btn
+  |============================
+*/
 .filtr {
   padding-bottom: 120px;
   padding-top: 96px;
