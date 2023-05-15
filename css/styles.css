@@ -450,7 +450,7 @@ img {
 }
 .customers-item:hover,
 .customers-item:focus{
-  border: 1px solid var(--light-btn-cl);
+  border: 1px solid #404bbf;
   border-radius: 4px;
 }
 
