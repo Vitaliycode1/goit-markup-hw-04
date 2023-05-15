@@ -205,11 +205,9 @@ img {
   padding-bottom: 188px;
   background-color: var(--accent-bg-cl);
   text-align: center;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/people-office\ .jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+   rgba(46, 47, 66, 0.7)),
+    url(../images/peole-ofice.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -369,7 +367,7 @@ img {
 }
 
 .team-item-container {
-  padding: 32px 16px;
+  padding: 32px 0;
   margin: 0;
   border-radius: 0px 0px 4px 4px;
   text-align: center;
@@ -390,20 +388,25 @@ img {
   align-items: center;
   gap: 24px;
 }
+.social-item{
+  width: 44px;
+  height: 44px;
+}
 
 .social-link {
   display: flex;
   justify-content: center;
   align-items: center;
 
+
   width: 44px;
   height: 44px;
-  
-  
+
   background-color: var(--primary-btn-color);
   border-radius: 50%;
 }
-.social-link:hover {
+.social-link:hover,
+.social-link:focus {
   background-color: var(--light-btn-cl);
 }
 .social-icon{
@@ -422,6 +425,7 @@ img {
 }
 .customers-list {
   display: flex;
+
 }
 
 .customers-item {
@@ -449,9 +453,12 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-color: #8E8F99;
+  color: #8E8F99;
+  
+
 }
-.customers-link:hover{
+.customers-link:hover,
+.customers-link:focus{
   color: var(--light-btn-cl);
 }
 .customer-icon{
@@ -554,7 +561,8 @@ color: #8E8F99;
   background-color: var(--primary-btn-color);
   border-radius: 50%;
 }
-.footer-social-link:hover {
+.footer-social-link:hover
+.footer-social-link:focus {
   background: #31d0aa;
 }
 /**
