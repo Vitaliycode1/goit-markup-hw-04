@@ -293,29 +293,27 @@ img {
   | Strategi icon
   |============================
 */
-.strategi-block-icon{
-display: flex;
-align-items: center;
-justify-content: center;
-height: 112px;
-background-color: var(--accent-btn-cl);
-border-radius: 4px;
-margin-bottom: 8px;
-}
-
-
-
-/* .strategy-list-item::before { */
-  display: block;
-  content: '';
+.strategi-block-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 112px;
-  background-size: 64px 64px;
-  background-repeat: no-repeat;
   background-color: var(--accent-btn-cl);
-  background-position: center;
   border-radius: 4px;
   margin-bottom: 8px;
 }
+
+/* .strategy-list-item::before { */
+display: block;
+content: '';
+height: 112px;
+background-size: 64px 64px;
+background-repeat: no-repeat;
+background-color: var(--accent-btn-cl);
+background-position: center;
+border-radius: 4px;
+margin-bottom: 8px;
+/* } */
 
 .strategy-list-item.icon-antenna::before {
   background-image: url('../images/icons/antenna\ .svg');
@@ -329,7 +327,6 @@ margin-bottom: 8px;
 .strategy-list-item.icon-astronaut::before {
   background-image: url('../images/icons/astronaut\ .svg ');
 }
-
 
 /**
   |============================
@@ -601,8 +598,8 @@ margin-bottom: 8px;
   color: var(--primary-btn-text-cl);
 }
 
-.filtr .shadow-btn:hover,
-.filtr .shadow-btn:focus {
+.filtr .btn-item-main:hover,
+.filtr .btn-item-main:focus {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
