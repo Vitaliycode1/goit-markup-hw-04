@@ -304,9 +304,21 @@ img {
   background-color: var(--accent-btn-cl);
   background-position: center;
   border-radius: 4px;
+  margin-bottom: 8px;
 }
+
 .strategy-list-item.icon-antenna::before{
+
   background-image: url("../images/icons/antenna\ .svg");
+}
+.strategy-list-item.icon-clock::before{
+  background-image: url("../images/icons/clock\ .svg ");
+}
+.strategy-list-item.icon-diagram::before{
+  background-image: url("../images/icons/diagram\ .svg ");
+}
+.strategy-list-item.icon-astronaut::before{
+  background-image: url("../images/icons/astronaut\ .svg ");
 }
 /**
   |============================
